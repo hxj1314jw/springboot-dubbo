@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: otc-monitor
+  boot:
+    admin:
+      context-path: /index    # 配置访问路径为：http://localhost:9000/sg-monitor/sba
+server:
+  port: 9000
+  context-path: /otc-monitor/ #统一为访问的url加上一个前缀
