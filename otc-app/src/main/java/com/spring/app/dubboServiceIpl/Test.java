@@ -36,7 +36,7 @@ public class Test implements TestApi  {
     private RedisService redisService;
     @Override
     public String test(String s) {
-        return "测试成功====" + s;
+        return "测试成功1====" + s;
     }
 
     @Override
